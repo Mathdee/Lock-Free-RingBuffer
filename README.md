@@ -138,3 +138,7 @@ go test -v -race ./...
 
 go test -bench=. -benchmem -cpu=2
 ```
+
+
+## Design (machine + ring buffer)
+More details in [`Design.md`](Design.md).
