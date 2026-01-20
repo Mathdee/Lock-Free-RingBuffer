@@ -100,7 +100,7 @@ Finished in 888ms at (2026-01-20 06:13:12)
 ## Implementation Details
 
 ### False Sharing Prevention
-So to prevent Cache Trashing (Excessive, useless reloading), the struct forces pointers onto separate cache lines:
+So to prevent Cache Thrashing (Excessive, useless reloading), the struct forces pointers onto separate cache lines:
 
 ```go
 type RingBuffer struct {
